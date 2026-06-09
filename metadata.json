@@ -1,0 +1,6 @@
+{
+  "name": "Flujo Negro",
+  "description": "Landing page de Flujo Negro, consultora de transformación digital. Del caos al flujo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
