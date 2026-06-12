@@ -124,7 +124,7 @@ export default function Servicios() {
                   className="flex items-center justify-between w-full bg-brand-dark hover:bg-accent hover:text-brand-dark text-white border border-brand-border group-hover:border-accent/40 font-bold uppercase tracking-wider text-xs py-3.5 px-5 rounded-xl transition-all duration-200"
                 >
                   Consultar por este módulo
-                  <ArrowUpRight className="h-4.5 w-4.5" />
+                  <ArrowUpRight className="h-4 w-4" />
                 </a>
               </div>
             </motion.div>

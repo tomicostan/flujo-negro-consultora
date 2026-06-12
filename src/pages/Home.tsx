@@ -5,7 +5,7 @@
 
 import React from "react";
 import { motion } from "motion/react";
-import { Play, ArrowRight, HelpCircle, AlertTriangle, MonitorX, HelpCircle as SiloIcon } from "lucide-react";
+import { Play, ArrowRight, AlertTriangle, MonitorX, HelpCircle as SiloIcon } from "lucide-react";
 import { WHATSAPP_CTA } from "../constants";
 
 export default function Home() {
