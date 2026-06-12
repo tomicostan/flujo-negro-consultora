@@ -53,17 +53,9 @@ export default function Home() {
         
         {/* --- HERO SECTION --- */}
         <section id="hero" className="text-center mb-24 md:mb-32">
-          <motion.div 
+          <motion.h1
             variants={itemVariants}
-            className="inline-flex items-center gap-2 px-3 py-1 bg-accent/10 border border-accent/20 rounded-full text-accent text-xs font-mono tracking-wider uppercase mb-6"
-          >
-            <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
-            Consultoría Sin Filtros
-          </motion.div>
-          
-          <motion.h1 
-            variants={itemVariants}
-            className="text-4xl md:text-6xl font-extrabold tracking-tighter text-white uppercase leading-tight md:leading-[0.9] mb-8"
+            className="text-4xl md:text-6xl font-extrabold tracking-normal text-white uppercase leading-tight md:leading-[0.95] mb-8"
           >
             Tu empresa no fracasa por <span className="italic">falta de ganas.</span> 
             <span className="block text-accent mt-4">Fracasa porque no sabe por dónde empezar.</span>
@@ -172,68 +164,68 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
             {/* Problem card 1 */}
-            <motion.div 
+            <motion.div
               variants={itemVariants}
               whileHover={{ y: -5 }}
-              className="bg-brand-card hover:bg-brand-card-hover border border-brand-border p-8 rounded-xl transition-all duration-200 flex flex-col justify-between"
+              className="group bg-brand-card hover:bg-brand-card-hover border border-brand-border rounded-xl overflow-hidden transition-all duration-200 flex flex-col justify-between"
             >
-              <div>
-                <div className="h-10 w-10 bg-accent/5 border border-accent/20 rounded-lg flex items-center justify-center text-accent mb-6">
-                  <AlertTriangle className="h-5 w-5" />
-                </div>
-                <h4 className="text-white font-extrabold text-lg uppercase mb-3">
-                  Cero rumbo inicial
-                </h4>
+              <div className="p-8">
+                <div className="text-6xl font-black text-accent/15 leading-none mb-4 select-none">"</div>
+                <p className="text-white font-semibold text-base italic leading-snug mb-5">
+                  Sabemos que hay que cambiar algo, pero por dónde empezamos...
+                </p>
+                <div className="h-px w-8 bg-accent/30 mb-5" />
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  Sabés que el papel y las llamadas te arrastran hacia abajo, pero la lista de necesidades es tan larga que no sabés por dónde cortar el nudo.
+                  Sin diagnóstico claro, la lista de urgencias crece sola y ninguna decisión arranca.
                 </p>
               </div>
-              <div className="mt-8 font-mono text-[10px] text-gray-600 uppercase tracking-widest">
-                Bloqueo 01 / Prioridad
+              <div className="px-8 py-4 border-t border-brand-border-muted flex items-center gap-3">
+                <AlertTriangle className="h-4 w-4 text-accent/60" />
+                <span className="font-mono text-[10px] text-gray-600 uppercase tracking-widest">Bloqueo 01 / Prioridad</span>
               </div>
             </motion.div>
 
             {/* Problem card 2 */}
-            <motion.div 
+            <motion.div
               variants={itemVariants}
               whileHover={{ y: -5 }}
-              className="bg-brand-card hover:bg-brand-card-hover border border-brand-border p-8 rounded-xl transition-all duration-200 flex flex-col justify-between"
+              className="group bg-brand-card hover:bg-brand-card-hover border border-brand-border rounded-xl overflow-hidden transition-all duration-200 flex flex-col justify-between"
             >
-              <div>
-                <div className="h-10 w-10 bg-accent/5 border border-accent/20 rounded-lg flex items-center justify-center text-accent mb-6">
-                  <MonitorX className="h-5 w-5" />
-                </div>
-                <h4 className="text-white font-extrabold text-lg uppercase mb-3">
-                  Sistemas fantasma
-                </h4>
+              <div className="p-8">
+                <div className="text-6xl font-black text-accent/15 leading-none mb-4 select-none">"</div>
+                <p className="text-white font-semibold text-base italic leading-snug mb-5">
+                  Ya tenemos el sistema, pero nadie lo usa...
+                </p>
+                <div className="h-px w-8 bg-accent/30 mb-5" />
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  Se compran herramientas para conformar al directorio. El resultado: sistemas complejos que la gente rechaza y termina esquivando en planillas Excel ocultas.
+                  Herramientas costosas que el equipo rechaza. Todos terminan de vuelta en planillas Excel ocultas.
                 </p>
               </div>
-              <div className="mt-8 font-mono text-[10px] text-gray-600 uppercase tracking-widest">
-                Bloqueo 02 / Adopción
+              <div className="px-8 py-4 border-t border-brand-border-muted flex items-center gap-3">
+                <MonitorX className="h-4 w-4 text-accent/60" />
+                <span className="font-mono text-[10px] text-gray-600 uppercase tracking-widest">Bloqueo 02 / Adopción</span>
               </div>
             </motion.div>
 
             {/* Problem card 3 */}
-            <motion.div 
+            <motion.div
               variants={itemVariants}
               whileHover={{ y: -5 }}
-              className="bg-brand-card hover:bg-brand-card-hover border border-brand-border p-8 rounded-xl transition-all duration-200 flex flex-col justify-between"
+              className="group bg-brand-card hover:bg-brand-card-hover border border-brand-border rounded-xl overflow-hidden transition-all duration-200 flex flex-col justify-between"
             >
-              <div>
-                <div className="h-10 w-10 bg-accent/5 border border-accent/20 rounded-lg flex items-center justify-center text-accent mb-6">
-                  <SiloIcon className="h-5 w-5" />
-                </div>
-                <h4 className="text-white font-extrabold text-lg uppercase mb-3">
-                  Silos desconectados
-                </h4>
+              <div className="p-8">
+                <div className="text-6xl font-black text-accent/15 leading-none mb-4 select-none">"</div>
+                <p className="text-white font-semibold text-base italic leading-snug mb-5">
+                  Ventas pide algo que ya tiene logística, pero nadie se entera...
+                </p>
+                <div className="h-px w-8 bg-accent/30 mb-5" />
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  Ventas no sabe qué hay en depósito, administración factura a destiempo, y logística improvisa en el día. Datos repetidos y cero visibilidad real.
+                  Cada área opera con su versión de la realidad. Cero visibilidad compartida.
                 </p>
               </div>
-              <div className="mt-8 font-mono text-[10px] text-gray-600 uppercase tracking-widest">
-                Bloqueo 03 / Trazabilidad
+              <div className="px-8 py-4 border-t border-brand-border-muted flex items-center gap-3">
+                <SiloIcon className="h-4 w-4 text-accent/60" />
+                <span className="font-mono text-[10px] text-gray-600 uppercase tracking-widest">Bloqueo 03 / Trazabilidad</span>
               </div>
             </motion.div>
           </div>
