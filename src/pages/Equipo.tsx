@@ -141,9 +141,9 @@ export default function Equipo() {
               href={WHATSAPP_CTA}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-accent hover:bg-accent-hover text-brand-dark px-8 py-4.5 rounded-full font-extrabold uppercase tracking-wider text-xs shadow-lg shadow-accent/5 transition-transform hover:-translate-y-0.5"
+              className="inline-flex items-center gap-3 bg-accent hover:bg-accent-hover text-brand-dark px-8 py-4 rounded-full font-extrabold uppercase tracking-wider text-xs shadow-lg shadow-accent/5 transition-transform hover:-translate-y-0.5"
             >
-              <MessageCircle className="h-4.5 w-4.5" />
+              <MessageCircle className="h-4 w-4" />
               Charlemos por WhatsApp
               <ArrowUpRight className="h-4 w-4" />
             </a>

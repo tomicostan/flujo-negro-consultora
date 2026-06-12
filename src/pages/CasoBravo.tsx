@@ -248,7 +248,7 @@ export default function CasoBravo() {
               href={WHATSAPP_CTA}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-accent hover:bg-accent-hover text-brand-dark px-8 py-4.5 rounded-full font-bold uppercase text-xs tracking-widest transition-all duration-200"
+              className="inline-flex items-center gap-3 bg-accent hover:bg-accent-hover text-brand-dark px-8 py-4 rounded-full font-bold uppercase text-xs tracking-widest transition-all duration-200"
             >
               Consultá sobre el Roadmap de Bravo
               <ArrowRight className="h-4 w-4" />

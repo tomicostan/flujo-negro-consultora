@@ -51,8 +51,6 @@ export default function Footer() {
             <a href={WHATSAPP_CTA} target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
               [Soporte Técnico]
             </a>
-            <span className="text-gray-800">|</span>
-            <span>Estilo Premium Dark v1.0</span>
           </div>
         </div>
       </div>
